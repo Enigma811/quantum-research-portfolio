@@ -15,7 +15,7 @@ The work was completed as a term project at the National Institute of Science Ed
 
 ## Model
 
-The chain has unit masses, fixed Dirichlet boundaries, and a nearest-neighbour potential containing quadratic, cubic, and quartic terms. The simulations use chain sizes \(N=32\) and \(N=64\), with the initial energy placed in the fundamental normal mode \(k=1\).
+The chain has unit masses, fixed Dirichlet boundaries, and a nearest-neighbour potential containing quadratic, cubic, and quartic terms. The simulations use chain sizes \(N=32\) and \(N=64\), with the initial energy placed in the fundamental normal mode $k=1$.
 
 The analysis tracks:
 
@@ -32,18 +32,18 @@ The equations of motion are integrated using a second-order, time-reversible St√
 
 The principal parameter sets include:
 
-- Linear control: \(\alpha=0, \beta=0\), \(N=32\).
-- Cubic FPUT-\(\alpha\) runs with weak, moderate, and strong nonlinearity.
-- Quartic FPUT-\(\beta\) runs, including \(\beta=0.6\) and \(\beta=1.1\).
-- A mixed strong-nonlinearity run with \(\alpha=0.9\), \(\beta=1.1\), \(N=64\).
-- Time horizons up to \(t_{\max}=10^5\) for the strongest cases.
+- Linear control: $\alpha=0, \beta=0$, $N=32$.
+- Cubic FPUT-$\alpha$ runs with weak, moderate, and strong nonlinearity.
+- Quartic FPUT-$\beta$ runs, including $\beta=0.6$ and $\beta=1.1$.
+- A mixed strong-nonlinearity run with $\alpha=0.9$, $\beta=1.1$, $N=64$.
+- Time horizons up to $t_{\max}=10^5$ for the strongest cases.
 
 ## Main results
 
 - The linear control preserves the initial mode energy, validating the initial condition and diagnostics.
 - Weak-to-moderate cubic nonlinearity produces the canonical FPUT behavior: energy leaves mode 1, is transferred primarily to low modes, and returns close to the initial mode.
-- At \(\alpha=0.9\) and \(\alpha=1.1\), recurrence becomes less periodic and energy leakage into higher modes becomes increasingly visible.
-- Increasing the chain length from \(N=32\) to \(N=64\) produces noisier recurrence traces, consistent with the availability of more modes for energy redistribution.
+- At $\alpha=0.9$ and $\alpha=1.1$, recurrence becomes less periodic and energy leakage into higher modes becomes increasingly visible.
+- Increasing the chain length from $N=32$ to $N=64$ produces noisier recurrence traces, consistent with the availability of more modes for energy redistribution.
 - Pure quartic runs show cleaner and longer-lived two-mode beating in the studied parameter range.
 - At strong mixed cubic and quartic nonlinearity, the system exhibits rapid irregular exchange among modes and approaches the equipartition-like behavior expected at sufficiently long times or stronger coupling.
 - Real-space profiles steepen and develop localized, soliton-like features before splitting and recombining.
