@@ -79,7 +79,7 @@ The filenames are a recommended organization and should be changed to match the 
 Document:
 
 1. Python version and dependencies.
-2. Exact Hamiltonian and sign conventions for \(\alpha\) and \(\beta\).
+2. Exact Hamiltonian and sign conventions for \(\alpha\) and $\beta$.
 3. Boundary conditions and initial-mode normalization.
 4. Time step, total simulation time, and integrator details.
 5. Parameter sets used for each figure.
