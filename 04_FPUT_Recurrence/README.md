@@ -64,15 +64,9 @@ The report derives the connection between the discrete lattice and weakly nonlin
 04_fput_recurrence/
 ├── README.md
 ├── src/
-│   ├── integrator.py           # Störmer–Verlet update
-│   ├── forces.py               # Harmonic and anharmonic forces
-│   ├── normal_modes.py         # Discrete sine transform and mode energies
-│   └── diagnostics.py          # Energy and recurrence diagnostics
-├── notebooks/
-├── configs/
+│   ├── FPUT_classical.py           # system construction + simulation + energy distribution
 ├── figures/
-├── animations/
-├── data/
+├── real_space_simulations/
 ├── report/
 │   └── FPUT_report.pdf
 └── environment.yml
