@@ -96,7 +96,7 @@ The study uses a single initial mode and selected parameter sets rather than a s
 - [Code](src/)
 - [Full report](report/)
 - [Figures](figures/)
-- [Simulaations](real_space_simulations/)
+- [Simulations](real_space_simulations/)
 
 ## Citation
 
