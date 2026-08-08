@@ -66,8 +66,6 @@ The application uses a nearest-neighbour tight-binding Hamiltonian for a single 
 │   ├── surface_greens.py      # Surface Green's functions
 │   ├── rgf.py                  # Left/right/full recursive sweeps
 │   └── observables.py          # Conductance, transmission, and LDOS
-├── notebooks/
-├── configs/
 ├── figures/
 ├── report/
 │   └── RGF_graphene_report.pdf
@@ -95,8 +93,8 @@ The main numerical demonstration uses a clean, ballistic, single-layer graphene 
 ## Links
 
 - Code: to be added.
-- Full report: to be added.
-- Selected conductance and LDOS figures: to be added.
+- [Full report](report/)
+- [Selected conductance and LDOS figures](figures/)
 
 ## Citation
 
