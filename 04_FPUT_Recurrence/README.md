@@ -1,6 +1,6 @@
 # Fermi–Pasta–Ulam–Tsingou Recurrence, Solitons, and Chaos Onset
 
-## Project summary
+## Brief project summary
 
 This project presents a numerical and theoretical investigation of the Fermi–Pasta–Ulam–Tsingou (FPUT) problem. A fixed-end chain of classical particles coupled by anharmonic nearest-neighbour springs is initialized in a single long-wavelength normal mode, and the subsequent exchange of energy among normal modes is tracked.
 
