@@ -93,7 +93,7 @@ The study uses a single initial mode and selected parameter sets rather than a s
 
 ## Links
 
-- [Code (04_FPUT_Recurrence/src/)]
+- [[Code (04_FPUT_Recurrence/src/)]]
 - [Full report (04_FPUT_Recurrence/report/)]
 - [Figures (04_FPUT_Recurrence/figures/)]
 - [Simulaations (04_FPUT_Recurrence/real_space_simulations/)]
