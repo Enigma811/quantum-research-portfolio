@@ -93,10 +93,10 @@ The study uses a single initial mode and selected parameter sets rather than a s
 
 ## Links
 
-- Code: [src/]
-- Full report: [report/]
-- Figures: [figures/]
-- Simulaations: [real_space_simulations/]
+- [Code (src/)]
+- [Full report (report/)]
+- [Figures (figures/)]
+- [Simulaations (real_space_simulations/)]
 
 ## Citation
 
