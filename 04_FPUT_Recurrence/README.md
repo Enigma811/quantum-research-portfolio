@@ -1,4 +1,4 @@
-# Fermi–Pasta–Ulam–Tsingou Recurrence, Solitons, and Chaos Onset
+# Fermi–Pasta–Ulam–Tsingou: Recurrence, Solitons, and Chaos Onset
 
 ## Brief project summary
 
