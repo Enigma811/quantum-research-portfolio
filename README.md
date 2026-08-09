@@ -45,11 +45,11 @@ Each project folder is intended to contain:
 3. Selected figures and generated results.
 4. A concise project summary or report link.
 
-The exact commands for running each project will be added after the source files are organized. Numerical results should be interpreted together with the assumptions, parameter ranges, and limitations stated in the corresponding project README and report.
+Numerical results should be interpreted together with the assumptions, parameter ranges, and limitations stated in the corresponding project README and report.
 
 ## Project status
 
-The projects are based on thesis and coursework work completed at NISER. Some folders may initially contain documentation and selected outputs before all source files are added. Please consult each project README for the current status.
+Some folders may initially contain documentation and selected outputs before all source files are added. Please consult each project README for the current status.
 
 ## Contact
 
