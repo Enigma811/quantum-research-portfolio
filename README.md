@@ -26,7 +26,7 @@ My broader preparation includes coursework and practical training in:
 - Many-particle physics and advanced solid-state physics.
 - Non-equilibrium statistical mechanics.
 - Nonlinear physics, chaos, and turbulence.
-- Computational physics.
+- Computational physics and convex optimization.
 - Qiskit-based quantum algorithms and simulation.
 
 ## Technical toolkit
