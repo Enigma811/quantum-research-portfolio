@@ -72,8 +72,6 @@ The report derives the connection between the discrete lattice and weakly nonlin
 └── environment.yml
 ```
 
-The filenames are a recommended organization and should be changed to match the actual repository contents.
-
 ## Reproducibility checklist
 
 Document:
