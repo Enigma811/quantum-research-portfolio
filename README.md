@@ -4,7 +4,7 @@
 M.Tech. student in Functional Materials and Nanotechnology, IIT Madras  
 Integrated M.Sc. Physics, NISER
 
-This repository presents selected research and computational projects in quantum information, quantum many-body physics, numerical simulation, and quantum transport. It has been curated for research internship applications, including the Fujitsu Research Intern (Quantum Computing) application.
+This repository presents selected research and computational projects in quantum information, quantum many-body physics, numerical simulation, and quantum transport. It has been curated for research internship applications and project collaborations.
 
 ## Selected projects
 
@@ -14,6 +14,9 @@ This repository presents selected research and computational projects in quantum
 | [MERA: review and simulation](02_MERA_Review_and_Simulation/) | Tensor networks and quantum simulation | MERA, entanglement renormalization, variational optimization | [Report](02_MERA_Review_and_Simulation/report/) |
 | [Recursive Green's function method for graphene](03_RGF_Graphene/) | Mesoscopic quantum transport | Recursive Green's functions, conductance, LDOS | [Report](03_RGF_Graphene/report/) |
 | [Fermi–Pasta–Ulam–Tsingou problem](04_FPUT_Recurrence/) | Nonlinear dynamics and computational physics | Numerical integration, normal-mode analysis, continuum-limit interpretation | [Report](04_FPUT_Recurrence/report/) |
+
+## Research Interests
+My main research interest is multipartite entanglement and its use in understanding how information is distributed, propagates, and evolves in quantum many-body systems and related processes. Broadly, I'm interested in entanglement theory (the fundamental rules, especially for mixed states; different kinds of entanglement; multipartite measures etc), interplay of quantum information and measurement across systems, and quantum information theory.
 
 ## Background
 
