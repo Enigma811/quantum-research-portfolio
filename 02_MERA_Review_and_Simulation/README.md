@@ -81,9 +81,9 @@ The numerical accuracy depends on bond dimension, network architecture, initiali
 
 ## Links
 
-- Code: to be added.
-- Full report: to be added.
-- Selected figures: to be added.
+- [Code]: code available on request, subject to viewing/sharing permissions
+- [Report](report/): the project summary; the full report available on request, subject to viewing/sharing permissions
+- [Figures](figures/): a selection out of the set of result plots obtained during the project
 
 ## Citation
 
