@@ -52,7 +52,7 @@ The application uses a nearest-neighbour tight-binding Hamiltonian for a single 
 - The RGF method provides an efficient way to compute transport quantities for larger systems than direct inversion of the full device matrix.
 - Efficient slicing reduces the computational burden while retaining the graphene lattice connectivity.
 - Conductance is calculated from the Green's-function blocks connecting the left and right contacts.
-- Local density of states is calculated from the diagonal blocks of the spectral function.
+- Local density of states can be calculated from the diagonal blocks of the spectral function.
 - For the clean armchair graphene sample studied in the report, the numerical conductance agrees well with the expected behavior for sufficiently large systems; smaller systems show stronger finite-size effects and less well-defined oscillatory structure.
 - The method is discussed as extensible to disorder, interactions, finite temperature, and more complicated edge geometries.
 
