@@ -10,10 +10,10 @@ This repository presents selected research and computational projects in quantum
 
 | Project | Focus | Main methods | Links |
 |---|---|---|---|
-| [Multipartite entanglement in a 1D Heisenberg model](01_Multipartite_Entanglement_QFI/) | Quantum information and many-body physics | Quantum Fisher information, exact diagonalization, analytical calculation | [Report](01_multipartite_entanglement_qfi/report/) |
-| [MERA: review and simulation](02_MERA_Review_and_Simulation/) | Tensor networks and quantum simulation | MERA, entanglement renormalization, variational optimization | [Report](02_mera_transverse_field_ising/report/) |
-| [Recursive Green's function method for graphene](03_RGF_Graphene/) | Mesoscopic quantum transport | Recursive Green's functions, conductance, LDOS | [Report](03_recursive_greens_function_graphene/report/) |
-| [Fermi–Pasta–Ulam–Tsingou problem](04_FPUT_Recurrence/) | Nonlinear dynamics and computational physics | Numerical integration, normal-mode analysis, continuum-limit interpretation | [Report](04_fput_recurrence/report/) |
+| [Multipartite entanglement in a 1D Heisenberg model](01_Multipartite_Entanglement_QFI/) | Quantum information and many-body physics | Quantum Fisher information, exact diagonalization, analytical calculation | [Report](01_Multipartite_Entanglement_QFI/report/) |
+| [MERA: review and simulation](02_MERA_Review_and_Simulation/) | Tensor networks and quantum simulation | MERA, entanglement renormalization, variational optimization | [Report](02_MERA_Review_and_Simulation/report/) |
+| [Recursive Green's function method for graphene](03_RGF_Graphene/) | Mesoscopic quantum transport | Recursive Green's functions, conductance, LDOS | [Report](03_RGF_Graphene/report/) |
+| [Fermi–Pasta–Ulam–Tsingou problem](04_FPUT_Recurrence/) | Nonlinear dynamics and computational physics | Numerical integration, normal-mode analysis, continuum-limit interpretation | [Report](04_FPUT_Recurrence/report/) |
 
 ## Background
 
