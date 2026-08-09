@@ -88,7 +88,7 @@ Document:
 4. Lead model and surface-Green's-function method.
 5. Broadening parameter and energy grid.
 6. Device width, length, edge orientation, and contact configuration.
-7. Commands or notebooks required to reproduce conductance and LDOS figures.
+7. Code required to reproduce conductance and LDOS figures.
 
 ## Scope and limitations
 
