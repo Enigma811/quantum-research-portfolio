@@ -85,7 +85,7 @@ Document:
 5. Parameter sets used for each figure.
 6. Definitions of total energy and mode energy.
 7. Energy-conservation and timestep-convergence checks.
-8. Commands or notebooks required to regenerate the main figures and animations.
+8. Code to regenerate the main figures and animations.
 
 ## Limitations
 
