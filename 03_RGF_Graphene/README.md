@@ -62,10 +62,6 @@ The application uses a nearest-neighbour tight-binding Hamiltonian for a single 
 03_recursive_greens_function_graphene/
 ├── README.md
 ├── src/
-│   ├── hamiltonian.py          # Tight-binding device and lead blocks
-│   ├── surface_greens.py      # Surface Green's functions
-│   ├── rgf.py                  # Left/right/full recursive sweeps
-│   └── observables.py          # Conductance, transmission, and LDOS
 ├── figures/
 │   ├── honeycomb_graphene_lattice.png                # graphene lattice structure
 |   ├── armchair_slice_scheme.png                     # slicing scheme for armchair edge
@@ -88,7 +84,7 @@ Document:
 4. Lead model and surface-Green's-function method.
 5. Broadening parameter and energy grid.
 6. Device width, length, edge orientation, and contact configuration.
-7. Code required to reproduce conductance and LDOS figures.
+7. Code to reproduce conductance and LDOS figures.
 
 ## Scope and limitations
 
