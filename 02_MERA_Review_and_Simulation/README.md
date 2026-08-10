@@ -44,22 +44,15 @@ The simulation evaluates:
 ## Repository structure
 
 ```text
-02_mera_transverse_field_ising/
+02_MERA_Review_and_Simulation/
 ├── README.md
 ├── src/
-│   ├── tensors.py              # Tensor definitions and contractions
-│   ├── superoperators.py       # Ascending/descending maps
-│   ├── environments.py         # Tensor environments
-│   └── optimization.py         # Variational updates
-├── notebooks/
 ├── figures/
-├── tests/
 ├── report/
 │   └── MERA_report.pdf
 └── environment.yml
 ```
 
-The filenames are a recommended organization and should be changed to match the actual repository contents.
 
 ## Reproducibility checklist
 
