@@ -65,7 +65,7 @@ Document the following with the final code:
 5. Tensor initialization procedure.
 6. Optimization update rule and convergence criterion.
 7. Number of iterations and stopping conditions.
-8. Commands or notebooks required to reproduce the energy and scaling-dimension plots.
+8. Code to reproduce the energy and scaling-dimension plots.
 
 ## Limitations
 
