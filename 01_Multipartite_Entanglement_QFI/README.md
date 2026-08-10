@@ -24,7 +24,6 @@ This work was completed as an M.Sc. thesis at the National Institute of Science 
 - Quantum Fisher information and QFI-density-based multipartite-entanglement criteria.
 - Entanglement witnesses, separability bounds, correlation functions, and susceptibility connections.
 - Parameter sweeps over temperature \(T\), magnetic field \(B\), and system size \(N\).
-- Extension to multiparameter estimation in an anisotropic/isotropic XY setting.
 
 ## Main results
 
@@ -33,7 +32,6 @@ This work was completed as an M.Sc. thesis at the National Institute of Science 
 - Increasing magnetic field suppresses the QFI-based entanglement signal in the parameter regime studied.
 - The crossover temperature associated with a given entanglement depth decreases as \(N\) increases.
 - The analysis supports QFI as a thermodynamically accessible and experimentally relevant tool for entanglement detection in strongly correlated systems.
-- The XY-model extension illustrates how multiparameter QFI can support simultaneous estimation and phase-diagnostic analysis.
 
 ## Repository structure
 
