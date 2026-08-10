@@ -32,7 +32,6 @@ The simulation evaluates:
 - Ground-state energy and its convergence with iterations.
 - Error relative to exact/reference ground-state energies.
 - Conformal scaling dimensions obtained from the MERA superoperator structure.
-- Dependence of performance on bond dimension and magnetic-field parameters.
 
 ## Main results
 
