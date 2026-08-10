@@ -33,7 +33,7 @@ My broader preparation includes coursework and practical training in:
 
 - **Programming:** Python, Julia, C/C++, SQL
 - **Quantum computing:** Qiskit, quantum circuits, VQE, QAOA, QPE, Trotterization, Krylov methods, teleportation, CHSH tests, and noise characterization.
-- **Numerical methods:** Exact diagonalization, tensor-network simulation, variational optimization, numerical integration, parameter sweeps, and data analysis.
+- **Numerical methods:** Exact diagonalization, tensor-network simulation, variational optimization, numerical integration, parameter estimation, data analysis and AI-integrated workflows.
 - **Tools:** Git/GitHub, LaTeX, MATLAB, Gnuplot, COMSOL, Linux, and VS Code.
 
 ## Reproducibility
