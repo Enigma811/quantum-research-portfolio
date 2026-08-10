@@ -64,9 +64,20 @@ The report derives the connection between the discrete lattice and weakly nonlin
 04_fput_recurrence/
 ├── README.md
 ├── src/
-│   ├── FPUT_classical.py           # system construction + simulation + energy distribution
+│   ├── FPUT_classical.py                          # system construction + simulation + energy distribution
 ├── figures/
+│   ├── alpha0_beta0_mode_energy.png               # control: mode energy vs time with both parameters set to 0
+|   ├── alpha0_beta0_total_energy.png              # control: total energy vs time with both parameters set to 0
+│   ├── alpha0.3_mode_energy.png                   # weak recurrence: mode energy vs time with alpha = 0, beta = 0
+│   ├── alpha0.3_total_energy.png                  # weak recurrence: total energy vs time with alpha = 0.3, beta = 0
+|   ├── alpha0.9_mode_energy.png                   # weak recurrence: mode energy vs time with alpha = 0, beta = 0
+│   ├── alpha0.9_total_energy.png                  # weak recurrence: total energy vs time with alpha = 0, beta = 0
+|   ├── beta0.6_mode_energy.png                    # pure quartic recurrence: mode energy vs time with alpha = 0, beta = 0.6
+│   └── alpha0.9_beta1.1_N64_mode_energy.png       # broadband mixing and chaotic onset: mode energy vs time with alpha = 1.1, beta = 1.1, N = 64
 ├── real_space_simulations/
+│   ├── im α = 0, β = 0.9, N = 32.gif                # graphene lattice structure
+|   ├── im α = 0, β = 0.9, N = 32.gif                     # slicing scheme for armchair edge
+│   └── imt α = 1.1, β = 1.1, N = 64.gif                # graphene lattice structure
 ├── report/
 │   └── FPUT_report.pdf
 └── environment.yml
