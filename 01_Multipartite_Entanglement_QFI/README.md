@@ -40,17 +40,13 @@ This work was completed as an M.Sc. thesis at the National Institute of Science 
 ```text
 01_multipartite_entanglement_qfi/
 ├── README.md
-├── src/
-│   ├── model.py                 # Hamiltonians and operators
-│   ├── diagonalization.py       # Finite-size eigensystems
-│   ├── thermal_states.py        # Thermal density matrices
-│   └── qfi.py                   # QFI and witness calculations
-├── notebooks/
-│   ├── qfi_temperature.ipynb
-│   ├── qfi_field.ipynb
-│   └── finite_size_scaling.ipynb
+├── animations/
+|   └── qfi_field_sweep.gif
 ├── figures/
-├── data/
+│   ├── f_Q vs T (var N, B= 0.0).png            # qfi density vs T for varying system sizes with B = 0
+|   ├── Line_T(m_by_N)_vs_N.png                 # crossover temp. T_m/N vs system size for thermal window of entanglement depth
+|   ├── spin_sector_heatmap_N=9_B=0.png         # spin-resolved contributions to qfi density
+│   └── var N B=0.1.png                         # qfi density vs T for varying N, B: field induced suppression
 ├── report/
 │   └── thesis_presentation.pdf
 └── environment.yml
@@ -77,9 +73,9 @@ Exact diagonalization is limited to small chains because the Hilbert-space dimen
 ## Links
 
 - [Code]: code available on request, subject to viewing/sharing permissions.
-- [Report](report/): thesis presentation; full thesis available on request, subject to viewing/sharing permissions.
+- [Report](report/): thesis presentation slides; full thesis available on request, subject to viewing/sharing permissions.
 - [Figures](figures/): a selection out of the set of result plots obtained during the project
-- [Simulations](animations/): animation of QFI density for the target model for various system sizes under varying magnetic field B. 
+- [Animations](animations/): animation of QFI density for the target model for various system sizes under varying magnetic field B. 
 
 ## Citation
 
