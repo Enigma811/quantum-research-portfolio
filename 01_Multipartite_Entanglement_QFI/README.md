@@ -38,7 +38,7 @@ This work was completed as an M.Sc. thesis at the National Institute of Science 
 ## Repository structure
 
 ```text
-01_multipartite_entanglement_qfi/
+01_Multipartite_Entanglement_QFI/
 ├── README.md
 ├── animations/
 |   └── qfi_field_sweep.gif
