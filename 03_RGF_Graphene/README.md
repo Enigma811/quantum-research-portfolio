@@ -74,7 +74,8 @@ The application uses a nearest-neighbour tight-binding Hamiltonian for a single 
 |   ├── armchair_slice_scheme.png                     # slicing scheme for armchair edge
 |   ├── zigzag_slice_scheme.png                       # slicing scheme for zigzag edge
 |   ├── conductance_vs_fermi_energy_(M=360,N=70).png  # conductance vs contact fermi energy
-│   └── conductance_vs_fermi_energy_(M=360,varN).png  # conductance vs contact fermi energy
+│   ├── conductance_vs_fermi_energy_(M=360,varN).png  # conductance vs contact fermi energy
+│   └── local_density_of_states.png                   # spatial LDOS map
 ├── report/
 │   └── RGF_project_summary.pdf
 └── environment.yml
@@ -99,7 +100,7 @@ The main numerical demonstration uses a clean, ballistic, single-layer graphene 
 
 ## Links
 
-- [Code](code/): code snippets to set up the scheme and compute relevant quantities for graphene with specified (in the the project) set of configurations and parameters
+- [Code](src/): code snippets to set up the scheme and compute relevant quantities for graphene with specified (in the the project) set of configurations and parameters
 - [Report](report/): the project summary; the full report may be made available on request, subject to viewing/sharing permissions
 - [Figures](figures/): a selection out of the set of result plots obtained during the project
 
