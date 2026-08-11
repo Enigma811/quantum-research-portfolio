@@ -62,6 +62,13 @@ The application uses a nearest-neighbour tight-binding Hamiltonian for a single 
 03_recursive_greens_function_graphene/
 ├── README.md
 ├── src/
+|   ├── lattice.py                 # Generates honeycomb graphene lattices and block-tridiagonal RGF Hamiltonians
+|   ├── leads.py                   # Computes semi-infinite lead surface Green's functions and self-energies
+|   ├── rgf.py                     # Implements the recursive Green's function algorithm for transmission and LDOS
+|   ├── transport.py               # High-level graphene transport wrapper combining lattice, leads, and RGF methods
+|   ├── run_lattice_figures.py     # Generates graphene lattice and RGF slicing visualizations for armchair and zigzag ribbons
+|   ├── run_conductance.py         # Generates conductance quantization and pseudo-diffusive conductivity figures
+|   └── run_ldos.py                # Computes and plots local density of states maps from RGF Green's functions 
 ├── figures/
 │   ├── honeycomb_graphene_lattice.png                # graphene lattice structure
 |   ├── armchair_slice_scheme.png                     # slicing scheme for armchair edge
@@ -92,7 +99,7 @@ The main numerical demonstration uses a clean, ballistic, single-layer graphene 
 
 ## Links
 
-- [Code]: code available on request, subject to viewing/sharing permissions
+- [Code](code/): code snippets to set up the scheme and compute relevant quantities for graphene with specified (in the the project) set of configurations and parameters
 - [Report](report/): the project summary; the full report available on request, subject to viewing/sharing permissions
 - [Figures](figures/): a selection out of the set of result plots obtained during the project
 
