@@ -1,4 +1,4 @@
-# RGF for Graphene — reproduction code
+# RGF for Graphene — conductance and LDOS code
 
 Python implementation of the recursive Green's-function (RGF) method for
 ballistic quantum transport, applied to single-layer graphene nanoribbons,
@@ -63,15 +63,8 @@ Additional physics sanity checks:
 
 ## Scaling of parameters $(M, N)$
 
-RGF cost scales as `O(N * M^3)` for dense per-slice blocks of width `M`
-(each slice requires one `M x M` matrix inversion), so `M=360` is roughly
-`(360/140)^3 ≈ 17x` more expensive per energy point than the widest demo
-here, and `N=70` is a longer sweep — reproducing the exact report figure
-should still be very feasible (each energy point on the order of a second
-or so), just increase `Lx`, `Ly` in `run_conductance.py` accordingly and
-expect the sweep to take longer. Both `theta=0/30` edge conventions were
-verified by eye — if your own code's "armchair"/"zigzag" labeling turns
-out to be swapped relative to this one, just swap the `edge=` argument.
+RGF cost scales as $O(N * M^3)$ for dense per-slice blocks of width `M`
+(each slice requires one `M x M` matrix inversion).
 
 ## What's NOT produced
 
