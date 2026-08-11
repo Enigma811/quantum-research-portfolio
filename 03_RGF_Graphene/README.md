@@ -62,6 +62,7 @@ The application uses a nearest-neighbour tight-binding Hamiltonian for a single 
 03_RGF_Graphene/
 ├── README.md
 ├── src/
+│   ├── README.md
 |   ├── lattice.py                 # Generates honeycomb graphene lattices and block-tridiagonal RGF Hamiltonians
 |   ├── leads.py                   # Computes semi-infinite lead surface Green's functions and self-energies
 |   ├── rgf.py                     # Implements the recursive Green's function algorithm for transmission and LDOS
@@ -70,6 +71,7 @@ The application uses a nearest-neighbour tight-binding Hamiltonian for a single 
 |   ├── run_conductance.py         # Generates conductance quantization and pseudo-diffusive conductivity figures
 |   └── run_ldos.py                # Computes and plots local density of states maps from RGF Green's functions 
 ├── figures/
+│   ├── README.md
 │   ├── honeycomb_graphene_lattice.png                # graphene lattice structure
 |   ├── armchair_slice_scheme.png                     # slicing scheme for armchair edge
 |   ├── zigzag_slice_scheme.png                       # slicing scheme for zigzag edge
