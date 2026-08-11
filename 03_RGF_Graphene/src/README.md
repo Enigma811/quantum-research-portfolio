@@ -63,8 +63,6 @@ Additional physics sanity checks:
 
 ## Scaling of parameters $(M, N)$
 
-The demo scripts use modest ribbon sizes (M ~ 25-140 atoms, N ~ 6-24
-slices) so the full set of figures runs in well under a minute on a laptop.
 RGF cost scales as `O(N * M^3)` for dense per-slice blocks of width `M`
 (each slice requires one `M x M` matrix inversion), so `M=360` is roughly
 `(360/140)^3 ≈ 17x` more expensive per energy point than the widest demo
