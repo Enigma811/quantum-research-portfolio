@@ -24,8 +24,7 @@ src/
   (matches Fig. 1 of the report — B1 top, B2/B3 lower-right/left).
 - **Ribbons**: a rectangular window is cut from an (optionally rotated)
   infinite sheet, then partitioned into slices by x-coordinate.
-  `theta=0` gives **zigzag edges**; `theta=30 deg` gives **armchair edges**
-  (verified visually — see [armchair_slice](../figures/armchair_slice.png)).
+  `theta=0` gives **zigzag edges**; `theta=30 deg` gives **armchair edges**.
   Because bonds only connect neighbouring slices, the Hamiltonian is exactly
   block-tridiagonal — no manual index bookkeeping needed.
   Armchair ribbons have a natural 2-slice period (alternating slice widths),
