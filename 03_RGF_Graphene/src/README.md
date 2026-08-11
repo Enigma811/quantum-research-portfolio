@@ -57,7 +57,7 @@ Additional physics sanity checks:
 - Zigzag ribbons show the well-known single conducting edge-state mode
   pinned near the Dirac point.
 - An undoped, short-and-wide sample with doped contacts approaches the
-  universal pseudo-diffusive minimum conductivity `$ 4/\pi$` (Tworzydlo et al.
+  universal pseudo-diffusive minimum conductivity $4/\pi$ (Tworzydlo et al.
   2006, ref. [6] in the report) as the width/length ratio grows — this is
   exactly the effect shown in the top panel of the report's Fig. 3.
 
