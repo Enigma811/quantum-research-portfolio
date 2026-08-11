@@ -59,7 +59,7 @@ The application uses a nearest-neighbour tight-binding Hamiltonian for a single 
 ## Repository structure
 
 ```text
-03_recursive_greens_function_graphene/
+03_RGF_Graphene/
 ├── README.md
 ├── src/
 |   ├── lattice.py                 # Generates honeycomb graphene lattices and block-tridiagonal RGF Hamiltonians
@@ -91,7 +91,7 @@ Document:
 4. Lead model and surface-Green's-function method.
 5. Broadening parameter and energy grid.
 6. Device width, length, edge orientation, and contact configuration.
-7. Code to reproduce conductance and LDOS figures.
+7. Code to setup RGF and compute conductance and LDOS for Graphene.
 
 ## Scope and limitations
 
@@ -105,4 +105,4 @@ The main numerical demonstration uses a clean, ballistic, single-layer graphene 
 
 ## Citation
 
-Please cite the associated project report and the methodological references listed there if you use this material.
+Please cite the associated project report and the methodological references listed there if you use this material/code.
