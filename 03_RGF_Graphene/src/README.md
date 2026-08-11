@@ -48,30 +48,20 @@ src/
 Both the transmission and the LDOS diagonal blocks were checked against a
 brute-force calculation (building the full open-system Hamiltonian,
 including both lead self-energies, as one dense matrix and inverting it
-directly) on small test ribbons — **agreement to ~1e-16** (machine
+directly) on small test ribbons — **agreement to $~1e-16$** (machine
 precision), confirming the recursive formulas are implemented correctly.
 Additional physics sanity checks:
-- A clean 1D chain gives T=1 inside the band, 0 outside.
+- A clean $1D$ chain gives $T=1$ inside the band, $0$ outside.
 - Clean graphene ribbons show the expected van Hove conductance peaks at
-  E = ±t and particle-hole symmetry.
+  $E = \pm t$ and particle-hole symmetry.
 - Zigzag ribbons show the well-known single conducting edge-state mode
   pinned near the Dirac point.
 - An undoped, short-and-wide sample with doped contacts approaches the
-  universal pseudo-diffusive minimum conductivity `4/pi` (Tworzydlo et al.
+  universal pseudo-diffusive minimum conductivity `$4/\pi$` (Tworzydlo et al.
   2006, ref. [6] in the report) as the width/length ratio grows — this is
   exactly the effect shown in the top panel of the report's Fig. 3.
 
-## Reproducing the figures
-
-```bash
-conda env create -f environment.yml
-conda activate rgf-graphene
-python src/run_lattice_figures.py     # lattice + slicing (Figs. 1-2 style)
-python src/run_conductance.py         # conductance plots (Fig. 3 style)
-python src/run_ldos.py                # LDOS map
-```
-
-## Scaling up to your report's parameters (M=360, N=70)
+## Scaling of parameters $(M, N)$
 
 The demo scripts use modest ribbon sizes (M ~ 25-140 atoms, N ~ 6-24
 slices) so the full set of figures runs in well under a minute on a laptop.
@@ -85,11 +75,8 @@ expect the sweep to take longer. Both `theta=0/30` edge conventions were
 verified by eye — if your own code's "armchair"/"zigzag" labeling turns
 out to be swapped relative to this one, just swap the `edge=` argument.
 
-## What's NOT reproduced
+## What's NOT produced
 
-- Exact figure sizes/parameters from your original report (M=360, N=70,
-  and the specific square-lattice-contact comparison) — these require
-  your exact lead-contact model, which wasn't in the material provided.
-- Disorder, interactions, finite temperature, next-nearest-neighbour
-  hopping — noted in the report as discussed conceptually but not
-  necessarily implemented in the original repository either.
+- Exact lead-contact model, disorder, interactions, finite temperature,
+next-nearest-neighbour hopping — noted in the report as discussed
+conceptually but not necessarily implemented in the project/code.
