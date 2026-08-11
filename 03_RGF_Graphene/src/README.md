@@ -2,28 +2,19 @@
 
 Python implementation of the recursive Green's-function (RGF) method for
 ballistic quantum transport, applied to single-layer graphene nanoribbons,
-following the structure of the project report (Choubey, NISER, 2024) and
-Lewenkopf & Mucciolo, *J. Comput. Electron.* **12**, 203 (2013).
-
-This was built independently from the report text/figures (not from your
-original source, which wasn't included) — every numerical piece below was
-validated against brute-force direct matrix inversion before being trusted,
-so you can rely on the physics even though the exact geometric conventions
-(axis choice, slicing granularity) may differ in detail from your own code.
+following the structure of the project report (Choubey, NISER, 2024).
 
 ## Structure
 
 ```
 src/
-  lattice.py     honeycomb lattice generator, ribbon slicing, block-tridiagonal H
-  leads.py       Sancho-Rubio decimation, lead self-energies, Gamma matrices
-  rgf.py         forward/backward RGF sweeps, transmission, LDOS diagonal blocks
-  transport.py   GrapheneRibbon: high-level class tying everything together
-  run_lattice_figures.py    Fig 1/2-style lattice + slicing plot
-  run_conductance.py        Fig 3-style conductance plots
-  run_ldos.py                LDOS map
-figures/         output PNGs
-environment.yml
+  lattice.py               : honeycomb lattice generator, ribbon slicing, block-tridiagonal H
+  leads.py                 : Sancho-Rubio decimation, lead self-energies, Gamma matrices
+  rgf.py                   : forward/backward RGF sweeps, transmission, LDOS diagonal blocks
+  transport.py             : GrapheneRibbon: high-level class tying everything together
+  run_lattice_figures.py   : Fig 1/2-style lattice + slicing plot
+  run_conductance.py       : Fig 3-style conductance plots
+  run_ldos.py              : LDOS map
 ```
 
 ## Method summary / conventions
