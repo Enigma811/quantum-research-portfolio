@@ -32,7 +32,7 @@ src/
   unit cell (same hopping/geometry as the device, with an optional uniform
   on-site shift `lead_onsite_shift` to model doped/gated contacts). Surface
   Green's functions via Sancho-Rubio decimation; self-energies
-  $\Sigma_L = u^\dagger g_L u$, $Sigma_R = u g_R u^\dagger$.
+  $\Sigma_L = u^\dagger g_L u$, $\Sigma_R = u g_R u^\dagger$.
 - **RGF**: forward (left-connected) and backward (right-connected) sweeps;
   transmission from the boundary block $G_{N-1,0}$ (Fisher-Lee/Caroli
   formula); full diagonal blocks for LDOS
