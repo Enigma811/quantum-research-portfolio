@@ -15,6 +15,7 @@ src/
   run_lattice_figures.py   : Fig 1/2-style lattice + slicing plot
   run_conductance.py       : Fig 3-style conductance plots
   run_ldos.py              : LDOS map
+  README.md
 ```
 
 ## Method summary / conventions
