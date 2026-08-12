@@ -107,7 +107,7 @@ The study uses a single initial mode and selected parameter sets rather than a s
 
 - [Code](src/): the complete code used for the project
 - [Report](report/): the project summary; the full report may be made available on request, subject to viewing/sharing permissions
-- [Figures](figures/): a selection out of the set of result plots obtained during the project
+- [Figures](figures/): a selection out of the set of figures and result plots from the project
 - [Simulations](real_space_simulations/): a selection out of the set of simulations obtained during the project
 
 ## Citation
