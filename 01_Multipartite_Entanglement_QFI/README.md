@@ -52,9 +52,14 @@ This work was completed as an M.Sc. thesis at the National Institute of Science 
 
 ## Reproducibility checklist
 
-For thermal 1D Heisenberg chains, multipartite entanglement is certified whenever the QFI density $f_Q = F_Q/N$ exceeds the $k$-producible bounds $f_Q > m$ (with $m \in \mathbb{Z}^+$ and $m \mid N$), so that the state is at least $(m+1)$-partite entangled.[web:22][web:23]  
-
-To allow others to reproduce the figures and entanglement-depth statements in this project, please document:
+1. Chosen programming language version and dependencies/relevant package versions.
+2. Model and parameter conventions (exact Hamiltonian, appropriate spin representation and boundary conditions/effects).
+3. State preparation and thermal ensemble.
+4. **Choice of generator / observable for QFI**.
+5. QFI definition and evaluation scheme.
+6. Spectral broadening and finite-resolution effects, if any.
+7. System-size and scaling choices.
+8. Figure-generation scripts and post-processing
 
 1. **Model and parameter conventions**  
    - Exact Hamiltonian (sign of $J$, definition of the exchange term, longitudinal field term, and any anisotropies).  
@@ -104,7 +109,7 @@ To allow others to reproduce the figures and entanglement-depth statements in th
 
 ## Limitations
 
-Exact diagonalization is limited to small chains because the Hilbert-space dimension grows exponentially with system size. The reported conclusions therefore concern finite systems and the parameter ranges studied; they should not be interpreted as a direct thermodynamic-limit result.
+Exact diagonalization is limited to small chains because the Hilbert-space dimension grows exponentially with system size. The reported conclusions therefore concern finite systems (equilibrium thermal states, static QFI witness for a fixed choice of generator) and the parameter ranges studied (where numerical results are reliable; some known failure modes: loss of accuracy at very low $T$ or large $N$ due to finite-size or numerical issues); they should not be interpreted as a direct thermodynamic-limit result. Dynamics and disorder are some direct extensions, along with possible execution of the complete computation/analysis on a QPU integrated workflow.
 
 ## Links
 
