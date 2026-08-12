@@ -104,7 +104,7 @@ The main numerical demonstration uses a clean, ballistic, single-layer graphene 
 
 - [Code](src/): code to set up the scheme and compute relevant quantities for graphene with specified (in the the project) set of configurations and parameters
 - [Report](report/): the project summary; the full report may be made available on request, subject to viewing/sharing permissions
-- [Figures](figures/): a selection out of the set of result plots obtained during the project
+- [Figures](figures/): a selection out of the set of figures and result plots from the project
 
 ## Citation
 
