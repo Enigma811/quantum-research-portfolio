@@ -4,7 +4,7 @@
 M.Tech. student in Functional Materials and Nanotechnology, IIT Madras  
 Integrated M.Sc. Physics, NISER
 
-This repository presents selected research and computational projects in quantum information, quantum many-body physics, numerical simulation, and quantum transport. It has been curated for research internship applications and project collaborations.
+This repository presents selected research and computational projects in quantum information, quantum many-body physics, numerical simulation, and quantum transport. It has been curated for project collaborations, research discussions and applications.
 
 ## Selected projects
 
@@ -26,6 +26,7 @@ My broader preparation includes coursework and practical training in:
 - Many-particle physics and advanced solid-state physics.
 - Non-equilibrium statistical mechanics.
 - Nonlinear physics, chaos, and turbulence.
+- Quantum Field Theory.
 - Computational physics and convex optimization.
 - Qiskit-based quantum algorithms and simulation.
 
