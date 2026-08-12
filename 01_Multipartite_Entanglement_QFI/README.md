@@ -70,10 +70,10 @@ Exact diagonalization is limited to small chains because the Hilbert-space dimen
 
 ## Links
 
-- [Code]: code available on request, subject to viewing/sharing permissions.
-- [Report](report/): thesis presentation slides; full thesis available on request, subject to viewing/sharing permissions.
-- [Figures](figures/): a selection out of the set of result plots obtained during the project
-- [Animations](animations/): animation of QFI density for the target model for various system sizes under varying magnetic field B. 
+- [Code]: code may be made available on request, subject to viewing/sharing permissions
+- [Report](report/): thesis presentation slides; full thesis may be made available on request, subject to viewing/sharing permissions
+- [Figures](figures/): a selection out of the set of figures and result plots from the project
+- [Animations](animations/): animation of QFI density for the target model for various system sizes under varying magnetic field B 
 
 ## Citation
 
