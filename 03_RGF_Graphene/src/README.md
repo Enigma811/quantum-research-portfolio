@@ -20,24 +20,19 @@ src/
 ## Method summary / conventions
 
 - **Lattice**: honeycomb, nearest-neighbour hopping `t`, bond vectors
-  `delta1=(0,1)`, `delta2=(sqrt(3)/2,-1/2)`, `delta3=(-sqrt(3)/2,-1/2)`
-  (matches Fig. 1 of the report — B1 top, B2/B3 lower-right/left).
+  `delta1=(0,1)`, `delta2=(sqrt(3)/2,-1/2)`, `delta3=(-sqrt(3)/2,-1/2)`.
 - **Ribbons**: a rectangular window is cut from an (optionally rotated)
   infinite sheet, then partitioned into slices by x-coordinate.
   `theta=0` gives **zigzag edges**; `theta=30 deg` gives **armchair edges**.
   Because bonds only connect neighbouring slices, the Hamiltonian is exactly
-  block-tridiagonal — no manual index bookkeeping needed.
+  block-tridiagonal.
   Armchair ribbons have a natural 2-slice period (alternating slice widths),
-  so raw slices are merged pairwise (`merge_slices`) before use — this is
-  the same "efficient slicing" idea shown in Fig. 2 of the report.
-  `find_commensurate_size` auto-snaps a requested (Lx, Ly) to the nearest
-  size giving a perfectly uniform (periodic) ribbon, since leads must be
-  made of an exactly repeating unit cell.
+  so raw slices are merged pairwise (`merge_slices`) before use — the "efficient slicing" scheme from the report.
 - **Leads**: semi-infinite, ideal contacts made of the ribbon's own end
   unit cell (same hopping/geometry as the device, with an optional uniform
   on-site shift `lead_onsite_shift` to model doped/gated contacts). Surface
   Green's functions via Sancho-Rubio decimation; self-energies
-  `Sigma_L = u^dagger g_L u`, `Sigma_R = u g_R u^dagger`.
+  $\Sigma_L = u^\dagger g_L u$, `Sigma_R = u g_R u^dagger`.
 - **RGF**: forward (left-connected) and backward (right-connected) sweeps;
   transmission from the boundary block `G_{N-1,0}` (Fisher-Lee/Caroli
   formula `T = Tr[Gamma_L G^r Gamma_R G^a]`); full diagonal blocks for LDOS
