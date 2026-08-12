@@ -112,4 +112,4 @@ The study uses a single initial mode and selected parameter sets rather than a s
 
 ## Citation
 
-Please cite the associated project report and the references listed there if you use this code or analysis.
+Please cite the associated project report and the references listed therein if you use this code or material/analysis.
