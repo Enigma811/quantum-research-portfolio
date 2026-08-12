@@ -25,7 +25,7 @@ Exact diagonalization becomes impractical as the number of degrees of freedom gr
 
 ## Model and implementation
 
-The numerical study considers a critical one-dimensional quantum Ising model with transverse magnetic field and a finite lattice of 256 sites. The implementation uses a variational optimization procedure in which tensor environments are constructed and the tensors are updated iteratively.
+The numerical study considers a critical one-dimensional quantum Ising model with transverse magnetic field and a finite lattice of $256$ sites. The implementation uses a variational optimization procedure in which tensor environments are constructed and the tensors are updated iteratively.
 
 The simulation evaluates:
 
@@ -49,9 +49,9 @@ The simulation evaluates:
 ├── src/
 |   └── README.md
 ├── figures/
-|   ├── causal_cone.png                    # bounded causal cone of a local operator in 1D MERA tensor network
+|   ├── causal_cone.png                    # bounded causal cone of a local operator in $1D$ MERA tensor network
 |   ├── errr_gs_vs_iteration_count.png     # error in grounds state energy for target model vs iteration count
-|   └── scaling_dim.png                    # critical ising model's corresponding conformal scaling dimension vs bond dimension k
+|   └── scaling_dim.png                    # critical ising model's corresponding conformal scaling dimension vs bond dimension $k$
 ├── report/
 │   └── MERA_report.pdf
 └── environment.yml
