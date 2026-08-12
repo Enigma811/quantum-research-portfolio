@@ -47,6 +47,7 @@ The simulation evaluates:
 02_MERA_Review_and_Simulation/
 ├── README.md
 ├── src/
+|   └── README.md
 ├── figures/
 ├── report/
 │   └── MERA_report.pdf
