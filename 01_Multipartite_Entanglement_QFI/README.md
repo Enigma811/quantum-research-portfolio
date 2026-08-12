@@ -50,19 +50,6 @@ This work was completed as an M.Sc. thesis at the National Institute of Science 
 └── environment.yml
 ```
 
-
-## Reproducibility checklist
-
-Before publication, document:
-
-1. Python version and package versions.
-2. Hamiltonian convention, coupling normalization, and units.
-3. Basis ordering and spin-operator conventions.
-4. Exact-diagonalization settings and numerical precision.
-5. Temperature and magnetic-field grids.
-6. QFI convention and normalization used for entanglement depth.
-7. Commands or notebooks required to reproduce each main figure.
-
 ## Limitations
 
 Exact diagonalization is limited to small chains because the Hilbert-space dimension grows exponentially with system size. The reported conclusions therefore concern finite systems and the parameter ranges studied; they should not be interpreted as a direct thermodynamic-limit result.
