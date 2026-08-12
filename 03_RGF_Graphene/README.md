@@ -88,7 +88,7 @@ The application uses a nearest-neighbour tight-binding Hamiltonian for a single 
 
 Document:
 
-1. Python version and dependencies.
+1. Chosen programming language version and dependencies/relevant package versions.
 2. Tight-binding hopping and onsite-energy conventions.
 3. Graphene lattice geometry and slicing convention.
 4. Lead model and surface-Green's-function method.
