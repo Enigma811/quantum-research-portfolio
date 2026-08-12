@@ -2,7 +2,7 @@
 
 ## Project summary
 
-This project investigates multipartite entanglement in the isotropic one-dimensional Heisenberg antiferromagnetic spin-1/2 model using quantum Fisher information (QFI). It combines analytical calculations for \(N=2\) with exact diagonalization for finite chains of \(N=3\)–\(12\), studying the dependence of entanglement on temperature, magnetic field, and system size.
+This project investigates multipartite entanglement in the isotropic one-dimensional Heisenberg antiferromagnetic spin-1/2 model using quantum Fisher information (QFI). It combines analytical calculations for $N=2$ with exact diagonalization for finite chains of $N=3$–$12$, studying the dependence of entanglement on temperature, magnetic field, and system size.
 
 This work was completed as an M.Sc. thesis at the National Institute of Science Education and Research under the guidance of Dr. Anamitra Mukherjee.
 
@@ -19,11 +19,11 @@ This work was completed as an M.Sc. thesis at the National Institute of Science 
 
 - Isotropic 1D Heisenberg antiferromagnetic spin-1/2 model.
 - Analytical treatment of the two-spin case.
-- Exact diagonalization for finite chains with \(N=3\)–\(12\).
+- Exact diagonalization for finite chains with $N=3$–$12$.
 - Thermal density matrices and energy eigenstate decompositions.
 - Quantum Fisher information and QFI-density-based multipartite-entanglement criteria.
 - Entanglement witnesses, separability bounds, correlation functions, and susceptibility connections.
-- Parameter sweeps over temperature \(T\), magnetic field \(B\), and system size \(N\).
+- Parameter sweeps over temperature $T$, magnetic field $B$, and system size $N$.
 
 ## Main results
 
@@ -49,6 +49,10 @@ This work was completed as an M.Sc. thesis at the National Institute of Science 
 │   └── thesis_presentation.pdf
 └── environment.yml
 ```
+
+## Reproducibility Checklist
+- Chosen programming language 
+
 
 ## Limitations
 
