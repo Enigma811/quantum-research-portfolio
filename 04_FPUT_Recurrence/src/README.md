@@ -1,4 +1,4 @@
-# FPUT recurrence — classical chain simulation
+# FPUT recurrence — classical simulation
 
 Python implementation of the Fermi–Pasta–Ulam–Tsingou (FPUT) problem for fixed-end chains with quadratic, cubic, and quartic nearest-neighbour interactions, using a Störmer–Verlet/leapfrog integrator and normal-mode diagnostics as in the associated project report.
 
