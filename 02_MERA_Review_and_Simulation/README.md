@@ -36,7 +36,7 @@ The simulation evaluates:
 ## Main results
 
 - The variational MERA calculation converges toward the ground-state energy of the finite Ising system.
-- The energy error decreases substantially over the optimization iterations, with the report (Choubey, 2024) showing convergence to a tolerance of approximately \(10^{-5}\) for the studied setup.
+- The energy error decreases substantially over the optimization iterations, with the report (Choubey, 2024) showing convergence to a tolerance of approximately $10^{-5}$ for the studied setup.
 - MERA-derived scaling dimensions show good agreement with the expected critical-Ising values in the reported calculation.
 - Increasing bond dimension improves the variational representation and reduces the observed energy error for a fixed number of iterations.
 - Disentanglers prevent the accumulation of short-range entanglement and preserve a bounded causal-cone width, which is central to MERA's computational efficiency.
