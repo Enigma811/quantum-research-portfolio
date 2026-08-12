@@ -49,9 +49,9 @@ The simulation evaluates:
 ├── src/
 |   └── README.md
 ├── figures/
-|   ├── causal_cone.png                    # bounded causal cone of a local operator in $1D$ MERA tensor network
+|   ├── causal_cone.png                    # bounded causal cone of a local operator in 1D MERA tensor network
 |   ├── errr_gs_vs_iteration_count.png     # error in grounds state energy for target model vs iteration count
-|   └── scaling_dim.png                    # critical ising model's corresponding conformal scaling dimension vs bond dimension $k$
+|   └── scaling_dim.png                    # critical ising model's corresponding conformal scaling dimension vs bond dimension k
 ├── report/
 │   └── MERA_report.pdf
 └── environment.yml
