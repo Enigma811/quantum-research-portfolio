@@ -2,7 +2,7 @@
 
 Python implementation of the recursive Green's-function (RGF) method for
 ballistic quantum transport, applied to single-layer graphene nanoribbons,
-following the structure of the project report (Choubey, NISER, 2024).
+following the structure of the project report (Choubey, 2024).
 
 ## Structure
 
