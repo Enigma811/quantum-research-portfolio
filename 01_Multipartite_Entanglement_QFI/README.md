@@ -30,7 +30,7 @@ This work was completed as an M.Sc. thesis at the National Institute of Science 
 - QFI detects entanglement over a finite thermal window that shrinks with increasing system size.
 - The QFI density decreases as temperature increases because thermal population of higher-spin sectors weakens the entanglement signature.
 - Increasing magnetic field suppresses the QFI-based entanglement signal in the parameter regime studied.
-- The crossover temperature associated with a given entanglement depth decreases as \(N\) increases.
+- The crossover temperature associated with a given entanglement depth decreases with increasing system size.
 - The analysis supports QFI as a thermodynamically accessible and experimentally relevant tool for entanglement detection in strongly correlated systems.
 
 ## Repository structure
