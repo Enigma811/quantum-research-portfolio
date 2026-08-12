@@ -108,4 +108,4 @@ The main numerical demonstration uses a clean, ballistic, single-layer graphene 
 
 ## Citation
 
-Please cite the associated project report and the methodological references listed there if you use this material/code.
+Please cite the associated project report and the references listed there if you use this material/code.
