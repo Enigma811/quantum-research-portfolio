@@ -50,7 +50,7 @@ The principal parameter sets include:
 
 ## Continuum-limit interpretation
 
-The report derives the connection between the discrete lattice and weakly nonlinear continuum equations in two stages: a standard long-wavelength expansion and a derivation specialized to the numerical discretization.
+The report (Choubey, 2024) derives the connection between the discrete lattice and weakly nonlinear continuum equations in two stages: a standard long-wavelength expansion and a derivation specialized to the numerical discretization.
 
 - Cubic-dominated dynamics reduces at leading order to KdV-type behavior.
 - Quartic-dominated dynamics leads to a modified KdV-type reduction.
