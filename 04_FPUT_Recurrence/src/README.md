@@ -58,4 +58,4 @@ src/
 
 - Systematic parameter scans over initial energy, phase, chain length, and nonlinear coefficients are not automated in this script; runs are configured manually via the parameter block.
 - Asymptotic equipartition plateaus at very long times and very strong nonlinearity are not established for every case; the focus is on the transition from clean near-recurrence to irregular broadband mode mixing in a representative parameter set.
-- Quantitative fitting of lattice profiles to exact continuum KdV / modified KdV / Gardner soliton solutions is not part of the code; the connection to these integrable equations is derived and discussed in the report rather than implemented numerically here.
+- Quantitative fitting of lattice profiles to exact continuum KdV / modified KdV / Gardner soliton solutions is not part of the code; the connection to these integrable equations is derived and discussed in the report (Choubey, 2024) rather than implemented numerically here.
