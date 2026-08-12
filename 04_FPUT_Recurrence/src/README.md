@@ -7,6 +7,7 @@ Python implementation of the Fermi–Pasta–Ulam–Tsingou (FPUT) problem for f
 ```
 src/
   FPUT_classical.py               : lattice construction, time integration, mode/energy diagnostics, animations + summary plots
+  README.md
 ```
 
 - All production runs (linear control, cubic FPUT-α, quartic FPUT-β, and mixed α–β cases) are driven by `FPUT_classical.py` with parameter blocks edited directly in the script.
