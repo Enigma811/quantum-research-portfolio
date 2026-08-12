@@ -1,6 +1,6 @@
 # FPUT recurrence — classical simulation
 
-Python implementation of the Fermi–Pasta–Ulam–Tsingou (FPUT) problem for fixed-end chains with quadratic, cubic, and quartic nearest-neighbour interactions, using a Störmer–Verlet/leapfrog integrator and normal-mode diagnostics as in the associated project report.
+Python implementation of the Fermi–Pasta–Ulam–Tsingou (FPUT) problem for fixed-end chains with quadratic, cubic, and quartic nearest-neighbour interactions, using a Störmer–Verlet/leapfrog integrator and normal-mode diagnostics as in the associated project report (Choubey, 2024).
 
 ## Structure
 
@@ -18,7 +18,7 @@ src/
 - **Lattice**: $1-D$ chain with $N$ unit-mass particles and fixed Dirichlet boundaries; the simulated sizes are $N=32$ and $N=64$.
 - **Interactions**: nearest-neighbour potential with harmonic, cubic, and quartic contributions,
   $V(r) = \tfrac{1}{2} r^2 + \alpha \tfrac{1}{3} r^3 + \beta \tfrac{1}{4} r^4 $
-  in the report’s convention (code uses the same schematic α/β control, with exact prefactors documented there).
+  in the report’s convention (code uses the same schematic α/β control, with exact prefactors documented there (Choubey, 2024)).
 - **Boundary conditions**: end sites are pinned to zero displacement after every timestep update (`x[0] = x[-1] = 0`), enforcing fixed ends throughout the simulation.
 - **Initial condition**: energy is concentrated in the fundamental long-wavelength normal mode $k = 1$; amplitudes are scaled with $N$ to keep the initial energy comparable across $N = 32$ and $N = 64$.
 - **Nonlinearity parameters**: representative runs include
