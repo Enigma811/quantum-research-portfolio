@@ -28,7 +28,7 @@ src/
   Because bonds only connect neighbouring slices, the Hamiltonian is exactly
   block-tridiagonal.
   Armchair ribbons have a natural 2-slice period (alternating slice widths),
-  so raw slices are merged pairwise (`merge_slices`) before use — the "efficient slicing" scheme from the report.
+  so raw slices are merged pairwise (`merge_slices`) before use — the "efficient slicing" scheme from the report (Choubey, 2024).
 - **Leads**: semi-infinite, ideal contacts made of the ribbon's own end
   unit cell (same hopping/geometry as the device, with an optional uniform
   on-site shift `lead_onsite_shift` to model doped/gated contacts). Surface
@@ -55,7 +55,8 @@ Additional physics sanity checks:
 - An undoped, short-and-wide sample with doped contacts approaches the
   universal pseudo-diffusive minimum conductivity $4/\pi$ (Tworzydlo et al.
   2006, ref. [6] in the report) as the width/length ratio grows — this is
-  exactly the effect shown in the top panel of the report's Fig. 3.
+  exactly the effect shown in the top panel of the report's [Fig. 3](../figures/conductance_vs_fermi_energy_(M=360,N=70).png
+) (Choubey, 2024).
 
 ## Scaling of parameters $(M, N)$
 
@@ -65,5 +66,5 @@ RGF cost scales as $O(N * M^3)$ for dense per-slice blocks of width `M`
 ## What's NOT produced
 
 - Exact lead-contact model, disorder, interactions, finite temperature,
-next-nearest-neighbour hopping — noted in the report as discussed
+next-nearest-neighbour hopping — noted in the report (Choubey, 2024) as discussed
 conceptually but not necessarily implemented in the project/code.
