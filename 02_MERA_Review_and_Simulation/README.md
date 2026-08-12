@@ -62,14 +62,14 @@ The simulation evaluates:
 
 Document the following with the final code:
 
-1. Python version and package versions.
+1. Chosen programming language version and relevant package versions.
 2. MERA type, tensor dimensions, bond dimension, and network depth.
 3. Tensor index ordering and normalization conventions.
 4. Ising Hamiltonian convention and boundary conditions.
 5. Tensor initialization procedure.
 6. Optimization update rule and convergence criterion.
 7. Number of iterations and stopping conditions.
-8. Code to reproduce the energy and scaling-dimension plots.
+8. Code to produce the energy and scaling-dimension plots.
 
 ## Limitations
 
