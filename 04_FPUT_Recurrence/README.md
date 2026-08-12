@@ -90,7 +90,7 @@ The report (Choubey, 2024) derives the connection between the discrete lattice a
 
 Document:
 
-1. Python version and dependencies.
+1. Chosen programming language version and dependencies/relevant package versions.
 2. Exact Hamiltonian and sign conventions for $\alpha$ and $\beta$.
 3. Boundary conditions and initial-mode normalization.
 4. Time step, total simulation time, and integrator details.
