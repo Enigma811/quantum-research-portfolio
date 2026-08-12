@@ -15,7 +15,7 @@ The work was completed as a term project at the National Institute of Science Ed
 
 ## Formalism
 
-The report [Choubey, 2024] develops the transport framework from the Landauer and Landauer–Büttiker viewpoints and introduces:
+The report (Choubey, 2024) develops the transport framework from the Landauer and Landauer–Büttiker viewpoints and introduces:
 
 - Transmission probabilities and conductance quantization.
 - Scattering matrices and their relation to Green's functions.
@@ -35,7 +35,7 @@ The conductor is divided into slices, each containing a finite number of sites. 
 4. Extraction of boundary blocks for transmission calculations.
 5. Evaluation of diagonal blocks for local density of states calculations.
 
-Semi-infinite leads are incorporated through surface Green's functions and self-energy terms. The report [Choubey, 2024] discusses analytic, eigenmode-decomposition, and decimation approaches for obtaining lead Green's functions.
+Semi-infinite leads are incorporated through surface Green's functions and self-energy terms. The report (Choubey, 2024) discusses analytic, eigenmode-decomposition, and decimation approaches for obtaining lead Green's functions.
 
 ## Graphene model
 
@@ -53,7 +53,7 @@ The application uses a nearest-neighbour tight-binding Hamiltonian for a single 
 - Efficient slicing reduces the computational burden while retaining the graphene lattice connectivity.
 - Conductance is calculated from the Green's-function blocks connecting the left and right contacts.
 - Local density of states can be calculated from the diagonal blocks of the spectral function.
-- For the clean armchair graphene sample studied in the report [Choubey, 2024], the numerical conductance agrees well with the expected behavior for sufficiently large systems; smaller systems show stronger finite-size effects and less well-defined oscillatory structure.
+- For the clean armchair graphene sample studied in the report (Choubey, 2024), the numerical conductance agrees well with the expected behavior for sufficiently large systems; smaller systems show stronger finite-size effects and less well-defined oscillatory structure.
 - The method is discussed as extensible to disorder, interactions, finite temperature, and more complicated edge geometries.
 
 ## Repository structure
@@ -98,7 +98,7 @@ Document:
 
 ## Scope and limitations
 
-The main numerical demonstration uses a clean, ballistic, single-layer graphene model with nearest-neighbour hopping. Disorder, interactions, inelastic effects, and finite-temperature transport are discussed conceptually in the report [Choubey, 2024] but are not necessarily implemented in the repository.
+The main numerical demonstration uses a clean, ballistic, single-layer graphene model with nearest-neighbour hopping. Disorder, interactions, inelastic effects, and finite-temperature transport are discussed conceptually in the report (Choubey, 2024) but are not necessarily implemented in the repository.
 
 ## Links
 
