@@ -31,9 +31,7 @@ src/
 ## Numerical method
 
 - **Integrator**: second-order, time-reversible Störmer–Verlet/leapfrog scheme for the lattice equations of motion; the update in the report is
-  $$
-  y_n(t+\Delta t) = 2 y_n(t) - y_n(t-\Delta t) + \Delta t^2 F_n[y(t)],
-  $$
+  $ y_n(t+\Delta t) = 2 y_n(t) - y_n(t-\Delta t) + \Delta t^2 F_n[y(t)], $
   and the code implements the same central-difference structure for the positions.
 - **Time-reversibility and symplecticity**: the method is symplectic and time-reversible, which yields bounded energy fluctuations over long runs and suppresses secular energy drift in the Hamiltonian dynamics regime considered.
 - **Diagnostics in code**:
