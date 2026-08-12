@@ -50,7 +50,6 @@ This work was completed as an M.Sc. thesis at the National Institute of Science 
 └── environment.yml
 ```
 
-The filenames above are a recommended organization and should be changed to match the actual repository contents.
 
 ## Reproducibility checklist
 
