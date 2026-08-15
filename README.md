@@ -2,7 +2,7 @@
 
 **Monu Kumar Choubey**  
 M.Tech. student in Functional Materials and Nanotechnology, IIT Madras  
-Integrated M.Sc. Physics, NISER
+Integrated M.Sc. (Physics), NISER
 
 This repository presents selected research and computational projects in quantum information, quantum many-body physics, numerical simulation, and quantum transport. It has been curated for project collaborations, research discussions and applications.
 
