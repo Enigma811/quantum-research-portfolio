@@ -50,6 +50,8 @@ Numerical results should be interpreted together with the assumptions, parameter
 
 ## Project status
 
+Live projects may not be listed. Please contact in case of any queries/discussions.
+
 Some folders may initially contain documentation and selected outputs before all source files are added. Please consult each project README for the current status.
 
 ## Contact
